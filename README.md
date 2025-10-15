@@ -16,15 +16,13 @@ You can directly load this data into a Google Colab notebook using pandas:
 import pandas as pd
 
 # Load the data directly from the raw GitHub URL
-url = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/listings.csv'
+url = 'https://raw.githubusercontent.com/MVR46/AirbnbData/main/listings.csv'
 df = pd.read_csv(url)
 
 # Display basic information
 print(f"Dataset shape: {df.shape}")
 df.head()
 ```
-
-Replace `YOUR_USERNAME` and `YOUR_REPO_NAME` with your actual GitHub username and repository name.
 
 ## Data Source
 
