@@ -16,7 +16,7 @@ You can directly load this data into a Google Colab notebook using pandas:
 import pandas as pd
 
 # Load the data directly from the raw GitHub URL
-url = 'https://raw.githubusercontent.com/MVR46/AirbnbData/main/listings.csv'
+url = 'https://raw.githubusercontent.com/MVR46/airbnb-data-madrid/main/listings.csv'
 df = pd.read_csv(url)
 
 # Display basic information
